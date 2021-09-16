@@ -95,7 +95,6 @@ h1, h2 {
     margin: 30px;
     text-align: center;
     line-height: 2;
-    padding-bottom: 30px;
 }
 
 .slogan {
@@ -128,4 +127,36 @@ hr {
     width: center 42%;
     margin: 5px;
     
+}
+
+/* Footer */
+
+footer {
+    height: 75px;
+    padding: 25px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+
+.social-networks i {
+    list-style: none;
+    margin: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 15px;
+    color: dimgray;
+    border: 2px solid dimgray;
+    border-radius: 50%;
+}
+
+.social-networks i:hover {
+    color:  rgb(51,102,0,0.8);
+    border-color: rgb(51,102,0,0.8);
 }
