@@ -77,7 +77,6 @@ h1, h2 {
 }
 
 
-
 #hero-image {
     height: 500px;
     width: 100%;
@@ -87,5 +86,46 @@ h1, h2 {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+}
 
+/* Spice level */
+
+#spice-level {
+    height: 500px;
+    margin: 30px;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.slogan {
+    margin: 30px;
+    padding: 15px;
+    color: dimgray;
+}
+
+.slogan > p {
+    text-align: center;
+    margin: 30px;
+}
+.slogan > a {
+    text-decoration: none;
+    color: inherit;
+}
+.slogan > a:hover {
+    border-block: 2px solid rgb(51,102,0);
+    border-radius: 20%;
+}
+
+.pepper-list {
+    padding: 15px;
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+hr {
+    border-top: 1px solid dimgray;
+    width: center 42%;
+    margin: 5px;
+    
 }
