@@ -45,7 +45,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 15px;
+    line-height: 0.5;
     height: 50px;
 }
 
