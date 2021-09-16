@@ -25,11 +25,6 @@ h1, h2 {
     text-align: center;
 }
 
-h3 {
-    font-family: Roboto, sans-serif;
-    font-size: 115%;
-    padding-top: 15px;
-}
 
 #logo {
    
@@ -37,4 +32,46 @@ h3 {
     font-size: 350%;
     padding-top: 30px;
     
+}
+
+/* Menu */
+
+#menu {
+    float: right;
+    font-family: Roboto;
+    font-size: 120%;
+    letter-spacing: 5px;
+    margin-right: 10px;
+}
+
+#menu, #logo {
+    line-height: 15px;
+    height: 50px;
+}
+
+
+#menu li {
+    list-style-type: none;
+    margin: 10px 10px;
+    display: inline;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+#menu a:hover {
+    border-block: 2px solid rgb(51,102,0,0.8);
+    border-radius: 20%;
+}
+
+.active {
+    border-block: 2px solid rgb(51,102,0,0.8);
+    border-radius: 20%;;
+}
+
+.fas {
+    color: rgb(51,102,0,0.8);
 }
