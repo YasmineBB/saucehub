@@ -75,3 +75,17 @@ h1, h2 {
 .fas {
     color: rgb(51,102,0,0.8);
 }
+
+/* Hero image */
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    background: url('../images/chillis-market.jpeg') no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+}
