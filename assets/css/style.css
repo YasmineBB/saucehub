@@ -129,6 +129,42 @@ hr {
     
 }
 
+.form-section {
+    background: url('../images/sauces-in-store-black-and-white.jpeg') no-repeat center center;
+    height: 1500px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    margin-top: 40px;
+    opacity: 0.9;
+    background-attachment: fixed;
+    line-height: 1.25;
+    
+}
+
+.signup-form {
+    height: 1250px;
+    background-color: dimgray;
+    opacity: 0.8;
+    text-align: center;
+    color: #ffff;
+    width: 750px;
+    margin: 125px 350px;
+    border: 5px solid rgb(51,102,0,0.8);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.form-intro {
+    padding-top: 15px;
+}
+
+.form-section-heading {
+    font-size: 200%;
+    color: #fff;
+    padding: 30px;
+}
+
 /* Footer */
 
 footer {
