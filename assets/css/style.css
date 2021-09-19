@@ -220,7 +220,51 @@ h3 {
 }
 
 #recipe-one:hover {
-    opacity: 1;
+    opacity: 0.95;
+}
+
+#recipe-two {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    margin: 700px 450px;
+    border: 5px solid rgb(51,102,0,0.8);
+    border-radius: 20px;
+    color: #ffff;
+    background-color: dimgray;
+    opacity: 0.9;
+    position: absolute;
+}
+
+#recipe-two > ul {
+    display: inline-block;
+    text-align: center;
+}
+
+#recipe-two:hover {
+    opacity: 0.95;
+}
+
+#recipe-three {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    margin: 1350px 450px;
+    border: 5px solid rgb(51,102,0,0.8);
+    border-radius: 20px;
+    color: #ffff;
+    background-color: dimgray;
+    opacity: 0.9;
+    position: absolute;
+}
+
+#recipe-three > ul {
+    display: inline-block;
+    text-align: center;
+}
+
+#recipe-three:hover {
+    opacity: 0.95;
 }
 
 ol {
@@ -259,6 +303,9 @@ ol {
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     position: absolute;
+}
+.signup-form:hover {
+    opacity: 0.95;
 }
 
 .form-intro {
