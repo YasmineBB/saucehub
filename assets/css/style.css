@@ -129,6 +129,53 @@ hr {
     
 }
 
+/* Recipes */
+
+.recipes-hr {
+    padding-top: 30px;
+}
+
+.slogan-two {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+#recipes {
+    height: 250px;
+    margin-top: 40px;
+    
+}
+
+
+h2 > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#mild {
+    width: 25%;
+    float: left;
+    padding: 30px;
+  
+}
+
+#hot {
+    width: 25%;
+    float: right;
+    padding: 30px;
+}
+
+#medium {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+   
+}
+
+/* Form */
+
 .form-section {
     background: url('../images/sauces-in-store-black-and-white.jpeg') no-repeat center center;
     height: 1500px;
