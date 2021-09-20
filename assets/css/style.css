@@ -279,9 +279,6 @@ ol {
 }
 
 
-
-
-
 /* Form */
 
 .form-section {
@@ -370,6 +367,24 @@ ol {
     margin: 25px 0;
 }
 
+/* Thank you page for submitting sign-up form */
+
+#thank-you {
+    height: 200px;
+    line-height: 1.5;
+    margin: 250px 0 150px 0;
+    text-align: center;
+}
+
+.thank-you > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.thank-you > a:hover {
+    border-block: 2px solid rgb(51,102,0);
+    border-radius: 20%;
+}
 
 /* Footer */
 
