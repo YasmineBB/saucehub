@@ -199,6 +199,7 @@ h2 > a {
     background-attachment: fixed;
     display: inline-block;
     line-height: 1.5;
+    opacity: 0.9;
 }
 
 h3 {
@@ -296,7 +297,7 @@ ol {
 .signup-form {
     height: 1250px;
     background-color: dimgray;
-    opacity: 0.8;
+    opacity: 0.95;
     text-align: center;
     color: #ffff;
     max-width: 750px;
@@ -304,9 +305,6 @@ ol {
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     position: absolute;
-}
-.signup-form:hover {
-    opacity: 0.95;
 }
 
 .form-intro {
