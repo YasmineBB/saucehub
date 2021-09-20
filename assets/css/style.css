@@ -191,7 +191,7 @@ h2 > a {
 
 #recipe-list {
     width: 100%;
-    height: 2050px;
+    height: 162rem;
     background: url('../images/homemade-sauces.jpeg') no-repeat center center;
     background-position: center;
     background-size: cover;
@@ -208,9 +208,9 @@ h3 {
 
 #recipe-one {
     text-align: center;
-    height: 600px;
+    height: 750px;
     width: 600px;
-    margin: 50px 450px;
+    margin: 5rem 26rem;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
@@ -228,11 +228,12 @@ h3 {
     opacity: 0.95;
 }
 
+
 #recipe-two {
     text-align: center;
-    height: 600px;
+    height: 750px;
     width: 600px;
-    margin: 700px 450px;
+    margin: 57rem 26rem;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
@@ -252,9 +253,9 @@ h3 {
 
 #recipe-three {
     text-align: center;
-    height: 600px;
+    height: 750px;
     width: 600px;
-    margin: 1350px 450px;
+    margin: 109rem 26rem;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
@@ -275,8 +276,14 @@ h3 {
 ol {
     background-color: lightgray;
     opacity: 0.9;
-    color: dimgray;
+    color: rgb(36,34,34);
     display: inline-block;
+    list-style-position: inside;
+}
+
+
+ol > p {
+    padding-top: 15px;
 }
 
 
