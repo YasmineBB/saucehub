@@ -25,6 +25,10 @@ h1, h2 {
     text-align: center;
 }
 
+p {
+    padding: 0 15px 0 15px;
+}
+
 
 #logo {
    
