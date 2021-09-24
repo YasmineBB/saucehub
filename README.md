@@ -63,16 +63,19 @@ In addition to the feature to Find Your Sauce, the recipes page provides the opt
 
 ### Future features to expand on and implement
 
-#### Share Your Sauce - hub for sharing recipes and ideas
+* Share Your Sauce - hub for sharing recipes and ideas
 Building on the Find Your sauce and Make Your Sauce pages, a features idea for the future is to create a Share Your Sauce page where users can collaborate and share their recipe ideas in line with the varying spice range. 
 When you click on the name of the chilli used in each recipe, it takes you to a page with all recipes for that specific chilli
 
-#### Wider categories on recipes page + extra hot etc
-#### Page on flavour profiles
+* Wider categories on recipes page + extra hot etc
+* Page on flavour profiles
 
 ## Testing
 
 ### Validator Testing
+
+* HTML
+* CSS
 
 screen sizes
 
@@ -80,6 +83,8 @@ any bugs
 
 
 ## Deployment
+
+
 
 ## Credits
 
