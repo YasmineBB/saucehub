@@ -114,7 +114,6 @@ p {
     margin: 30px;
 }
 
-
 .pepper-list {
     padding: 15px;
     list-style: none;
@@ -148,7 +147,6 @@ h2 > a {
     color: inherit;
     text-decoration: none;
 }
-
 
 #mild {
     width: 25%;
@@ -435,10 +433,6 @@ ol > p {
         padding: 15px 30px;
     }
 
-    #recipe-one, #recipe-two, #recipe-three {
-
-        
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -456,7 +450,6 @@ ol > p {
         padding: 15px 30px;
     }
 }
-
 
 @media screen and (max-width: 710px) {
     

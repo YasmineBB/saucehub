@@ -186,7 +186,6 @@ h2 > a {
 
 #recipe-list {
     width: 100%;
-    height: 162rem;
     background: url('../images/homemade-sauces.jpeg') no-repeat center center;
     background-position: center;
     background-size: cover;
@@ -195,6 +194,7 @@ h2 > a {
     display: inline-block;
     line-height: 1.5;
     opacity: 0.9;
+    padding-top: 30px;
 }
 
 h3 {
@@ -203,15 +203,15 @@ h3 {
 
 #recipe-one {
     text-align: center;
-    height: 750px;
-    width: 600px;
-    margin: 5rem 26rem;
+    width: 45rem;
+    margin: 30px auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
     background-color: dimgray;
     opacity: 0.9;
-    position: absolute;
+    margin: auto;
+    padding-bottom: 5rem;
 }
 
 #recipe-one > ul {
@@ -226,15 +226,14 @@ h3 {
 
 #recipe-two {
     text-align: center;
-    height: 750px;
-    width: 600px;
-    margin: 57rem 26rem;
+    width: 45rem;
+    margin: 30px auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
     background-color: dimgray;
     opacity: 0.9;
-    position: absolute;
+    padding-bottom: 5rem;
 }
 
 #recipe-two > ul {
@@ -248,15 +247,14 @@ h3 {
 
 #recipe-three {
     text-align: center;
-    height: 750px;
-    width: 600px;
-    margin: 109rem 26rem;
+    width: 45rem;
+    margin: 30px auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
     background-color: dimgray;
     opacity: 0.9;
-    position: absolute;
+    padding-bottom: 5rem;
 }
 
 #recipe-three > ul {
@@ -286,18 +284,16 @@ ol > p {
 
 .form-section {
     background: url('../images/sauces-in-store-black-and-white.jpeg') no-repeat center center;
-    height: 1500px;
     width: 100%;
+    padding: 75px 0;
     position: relative;
     background-size: cover;
-    margin-top: 40px;
     opacity: 0.9;
     background-attachment: fixed;
     line-height: 1.25; 
 }
 
 .signup-form {
-    height: 1250px;
     background-color: dimgray;
     opacity: 0.95;
     text-align: center;
@@ -306,6 +302,8 @@ ol > p {
     margin: auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
+    box-sizing: border-box;
+    padding: 15px 15px 30px 15px;
 }
 
 .form-intro {
@@ -419,23 +417,99 @@ ol > p {
 
 /* Media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
     
     .signup-form {
-        width: 
-        position: ;
+        margin: 0 auto;
+        padding: 15px 30px;
+    }
+
+}
+
+@media screen and (max-width: 833px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 42rem;
+        padding: 15px 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 39rem;
+        padding: 15px 30px;
     }
 }
 
+@media screen and (max-width: 741px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 38rem;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 37rem;
+        padding: 15px 30px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 35rem;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 33rem;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    
+  
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 31 rem;
+        padding: 15px 30px;
+    }
+    }
 @media screen and (max-width: 550px) {
     
-    .footer {
-     background-color: ;
-     font-size: %;
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 29rem;
+        padding: 15px 30px;
+    }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 515px) {
     
-    .pepper-list {
-     background-color: ;
-     height: ;
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 27rem;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+        width: 25rem;
+        padding: 15px 30px;
+    }
 }
