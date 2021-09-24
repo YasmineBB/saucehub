@@ -18,38 +18,34 @@ body {
 
 h1, h2 {
     font-family: Bebas Neue, sans-serif;
-    font-size: 150%;
     color: dimgray;
+    font-size: 150%;
     margin: 10px;
     letter-spacing: 5px;
     text-align: center;
 }
 
 p {
-    padding: 0 15px 0 15px;
+    padding: 1.2rem;
 }
 
 
 #logo {
-   
     border: none;
     font-size: 350%;
-    padding-top: 30px; 
+    padding-top: 15px; 
 }
 
 /* Menu */
 
 #menu {
-    float: right;
     font-family: Roboto;
     font-size: 120%;
     letter-spacing: 5px;
     margin-right: 10px;
-}
-
-#menu, #logo {
-    line-height: 0.5;
-    height: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -77,6 +73,8 @@ p {
 .fas {
     color: rgb(51,102,0,0.8);
 }
+
+/* Hero image */
 
 
 #hero-image {

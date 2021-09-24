@@ -18,8 +18,8 @@ body {
 
 h1, h2 {
     font-family: Bebas Neue, sans-serif;
+    color: dimgray;
     font-size: 150%;
-    
     margin: 10px;
     letter-spacing: 5px;
     text-align: center;
@@ -31,7 +31,6 @@ p {
 
 
 #logo {
-   
     border: none;
     font-size: 350%;
     padding-top: 15px; 
