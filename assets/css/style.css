@@ -80,7 +80,7 @@ p {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/chillis-market.jpeg') no-repeat center center;
+    background: url('../images/chillis-market-2-2.jpeg') no-repeat center center;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -423,7 +423,7 @@ ol > p {
         margin: 0 auto;
         padding: 15px 30px;
     }
-    
+
 }
 
 @media screen and (max-width: 833px) {
