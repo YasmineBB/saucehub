@@ -106,17 +106,14 @@ p {
 .slogan {
     margin: 30px;
     padding: 15px;
-    color: dimgray;
+    
 }
 
 .slogan > p {
-    
+    text-align: center;
     margin: 30px;
 }
-.slogan > a {
-    text-decoration: none;
-    color: inherit;
-}
+
 
 .pepper-list {
     padding: 15px;

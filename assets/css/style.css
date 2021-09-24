@@ -90,29 +90,27 @@ p {
 /* Spice level */
 
 #spice-level {
-    height: 500px;
     margin: 30px;
     text-align: center;
     line-height: 2;
 }
 
+.description a {
+    color: inherit;
+}
+.description a:hover {
+    border-block: 2px solid rgb(51,102,0);
+    border-radius: 20%;
+}
+
 .slogan {
     margin: 30px;
     padding: 15px;
-    color: dimgray;
 }
 
 .slogan > p {
     text-align: center;
     margin: 30px;
-}
-.slogan > a {
-    text-decoration: none;
-    color: inherit;
-}
-.slogan > a:hover {
-    border-block: 2px solid rgb(51,102,0);
-    border-radius: 20%;
 }
 
 .pepper-list {
@@ -123,7 +121,7 @@ p {
 
 hr {
     border-top: 1px solid dimgray;
-    width: center 42%;
+    width: inherit;
     margin: 5px; 
 }
 
