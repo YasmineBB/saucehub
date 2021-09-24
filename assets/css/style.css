@@ -83,6 +83,7 @@ p {
     background: url('../images/chillis-market.jpeg') no-repeat center center;
     background-position: center;
     background-size: cover;
+    position: relative;
     background-attachment: fixed;
 }
 
@@ -422,7 +423,7 @@ ol > p {
         margin: 0 auto;
         padding: 15px 30px;
     }
-
+    
 }
 
 @media screen and (max-width: 833px) {
