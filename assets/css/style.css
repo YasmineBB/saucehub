@@ -78,11 +78,13 @@ p {
 
 
 #hero-image {
-    height: 30rem;
+    height: 500px;
     width: 100%;
-    background: url('../images/chillies-in-market.jpg') no-repeat center center / cover;
+    background: url('../images/chillies-in-market.jpg') no-repeat center center;
+    background-position: center;
+    background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 
 /* Spice level */
