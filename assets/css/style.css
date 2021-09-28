@@ -346,7 +346,7 @@ ol > p {
     margin-top: 15px;
     padding: 15px 10px;
     color: #fff;
-    border-block: 2px solid #fff;
+    border-block: 2px solid rgb(51,102,0);
     border-radius: 30px;
 }
 
@@ -447,8 +447,7 @@ ol > p {
     .signup-form {
         width: 35rem;
     }
-
-     
+ 
 }
 
 /* For small screens from size 576px and down */
@@ -459,13 +458,19 @@ ol > p {
         width: 25rem;
     }
 
+    .social-networks {
+        column-gap: 5rem;
+        column-count: 2;
+        
+    }
+
     #recipe-one, #recipe-two, #recipe-three {
         width: 24rem;
     }
 
 }
 
-/* For extra small screens from size 576px and down */
+/* For extra small screens from size 414px and down */
 
 @media screen and (max-width: 414px) {
 
