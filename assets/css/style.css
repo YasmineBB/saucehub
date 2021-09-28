@@ -460,7 +460,17 @@ ol > p {
     }
 
     #recipe-one, #recipe-two, #recipe-three {
-        width: 28rem;
+        width: 24rem;
     }
 
+}
+
+/* For extra small screens from size 576px and down */
+
+@media screen and (max-width: 414px) {
+
+    #recipe-one, #recipe-two, #recipe-three {
+        width: 20rem;
+    }
+    
 }
