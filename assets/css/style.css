@@ -445,7 +445,7 @@ ol > p {
     }
 
     .signup-form {
-        width: 38rem;
+        width: 35rem;
     }
 
      
@@ -456,7 +456,7 @@ ol > p {
 @media screen and (max-width: 576px) {
 
     .signup-form {
-        width: 31rem;
+        width: 25rem;
     }
 
     #recipe-one, #recipe-two, #recipe-three {
@@ -468,6 +468,10 @@ ol > p {
 /* For extra small screens from size 576px and down */
 
 @media screen and (max-width: 414px) {
+
+    .signup-form {
+        width: 20rem;
+    }
 
     #recipe-one, #recipe-two, #recipe-three {
         width: 20rem;
