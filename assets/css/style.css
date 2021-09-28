@@ -417,46 +417,21 @@ ol > p {
 
 /* Media queries */
 
+/* For extra large screens from size 1200px and down */
+
+/* For large screens from size 992px and down */
+
 @media screen and (max-width: 992px) {
-    
-    .signup-form {
-        margin: 0 auto;
-        padding: 15px 30px;
-    }
 
+    #recipe-one, #recipe-two, #recipe-three {
+        width: 45rem;
+    }
+    
 }
 
-@media screen and (max-width: 833px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 42rem;
-        padding: 15px 30px;
-    }
-
-}
+/* For medium screens from size 768px and down */
 
 @media screen and (max-width: 768px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 39rem;
-        padding: 15px 30px;
-    }
-}
-
-@media screen and (max-width: 741px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 38rem;
-        padding: 15px 30px;
-    }
-}
-
-@media screen and (max-width: 710px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 37rem;
-        padding: 15px 30px;
-    }
 
     .nav-menu {
         display: flex;
@@ -464,52 +439,28 @@ ol > p {
         margin: auto;
         text-align: center;
     }
-}
 
-@media screen and (max-width: 650px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
+    #recipe-one, #recipe-two, #recipe-three {
         width: 35rem;
-        padding: 15px 30px;
     }
+
+    .signup-form {
+        width: 38rem;
+    }
+
+     
 }
 
-@media screen and (max-width: 600px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 33rem;
-        padding: 15px 30px;
-    }
-}
+/* For small screens from size 576px and down */
 
-@media screen and (max-width: 580px) {
-    
-  
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 31 rem;
-        padding: 15px 30px;
-    }
-    }
-@media screen and (max-width: 550px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 29rem;
-        padding: 15px 30px;
-    }
-}
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 515px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 27rem;
-        padding: 15px 30px;
+    .signup-form {
+        width: 31rem;
     }
-}
 
-@media screen and (max-width: 480px) {
-    
-    .signup-form, #recipe-one, #recipe-two, #recipe-three {
-        width: 25rem;
-        padding: 15px 30px;
+    #recipe-one, #recipe-two, #recipe-three {
+        width: 28rem;
     }
+
 }
