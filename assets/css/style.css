@@ -171,13 +171,13 @@ h2 > a {
 
 #mild:hover {
     border-block: 5px solid rgb(51,102,0,0.8);
-    
+    border-radius: 20%;
     font-size: 115%;
 }
 
 #medium:hover {
     border-block: 5px solid rgb(51,102,0,0.8);
-    
+    border-radius: 20%;
     font-size: 115%;
 }
 
@@ -328,7 +328,7 @@ ol > li {
 }
 
 .text-input {
-    color: #fff;
+    color: #696969;
     font-size: inherit;
     width: 50%;
     padding: 5px 10px;
@@ -499,34 +499,12 @@ ol > li {
         font-weight: bolder;
     }
 
+    ol {
+        display: inline-block;
+        list-style-position: inside;
+    }
+
 }
 
 /* For extra small screens from size 414px and down */
 
-@media screen and (max-width: 414px) {
-
-    .signup-form {
-        width: 20rem;
-    }
-
-    .social-networks {
-        column-gap: 5rem;
-        column-count: 2;   
-    }
-
-    #recipe-one, #recipe-two, #recipe-three {
-        width: 20rem;
-    }
-
-    .thank-you > a {
-        text-decoration: none;
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
-
-    .description a {
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
-    
-}
