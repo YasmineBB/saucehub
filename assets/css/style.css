@@ -97,17 +97,17 @@ p {
 }
 
 .description a {
-    color: inherit;
+    color: rgb(51,102,0,0.8);
 }
 .description a:hover {
-    border-block: 2px solid rgb(51,102,0);
+    border-block: 2px solid rgb(51,102,0,0.8);
     border-radius: 20%;
 }
 
 .slogan {
     margin: 30px 0;
     padding: 15px;
-    background-color: #D3D3D3;
+   
 }
 
 .slogan > p {
@@ -133,10 +133,10 @@ hr {
     padding-top: 30px;
 }
 
-.slogan-two {
-    margin: 100px 30px 50px 30px;
-    padding: 15px;
+.make-your-sauce {
+    margin: 75px 30px;
     background-color: #D3D3D3;
+    border-radius: 20%;
 }
 
 #recipes {
@@ -171,13 +171,13 @@ h2 > a {
 
 #mild:hover {
     border-block: 5px solid rgb(51,102,0,0.8);
-    border-radius: 20%;
+    
     font-size: 115%;
 }
 
 #medium:hover {
     border-block: 5px solid rgb(51,102,0,0.8);
-    border-radius: 20%;
+    
     font-size: 115%;
 }
 
@@ -190,7 +190,6 @@ h2 > a {
 #recipe-list {
     width: 100%;
     background: url('../images/homemade-sauces.jpeg') no-repeat center center;
-    background-position: center;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -201,7 +200,7 @@ h2 > a {
 }
 
 h3 {
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 
@@ -230,11 +229,11 @@ h3 {
 #recipe-two {
     text-align: center;
     width: 45rem;
-    margin: 30px auto;
+    margin: 60px auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
-    color: #ffff;
-    background-color: #696969;
+    color: #222224;
+    background-color: #D3D3D3;
     opacity: 0.9;
     padding-bottom: 5rem;
 }
@@ -251,11 +250,11 @@ h3 {
 #recipe-three {
     text-align: center;
     width: 45rem;
-    margin: 30px auto;
+    margin: 60px auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
-    color: #ffff;
-    background-color: #696969;
+    color: #222224;
+    background-color: #D3D3D3;
     opacity: 0.9;
     padding-bottom: 5rem;
 }
@@ -318,7 +317,7 @@ ol > li {
 
 .form-section-heading {
     font-size: 200%;
-    color: #fff;
+    color: #696969;
     margin: 30px;
 }
 
@@ -329,14 +328,12 @@ ol > li {
 }
 
 .text-input {
-    background: transparent;
     color: #fff;
     font-size: inherit;
-    height: 15px;
     width: 50%;
     padding: 5px 10px;
-    margin: 5px;
-    border: 2px solid #fff;
+    margin: 7px;
+    border: 2px solid #222224;
     border-radius: 20px;
 }
 
@@ -344,26 +341,23 @@ ol > li {
     border: 2px solid rgb(51,102,0);
 }
 
-.information {
-    text-align: justify;
-    text-justify: inter-character;
-}
-
 .join-button {
     background: transparent;
     font-family: Bebas Neue; 
-    font-size: 120%;
+    font-size: 150%;
     letter-spacing: 2px;
     margin: 30px;
     padding: 15px 10px;
-    color: #fff;
-    border-block: 2px solid rgb(51,102,0);
+    color: #696969;
+    border-block: 3px solid #222224;
     border-radius: 30px;
 }
 
 .join-button:hover {
     border-block: 5px solid rgb(51,102,0);
     border-radius: 20%;
+    font-size: 175%;
+    cursor: grab;
     
 }
 
@@ -375,6 +369,7 @@ ol > li {
 .subscribe {
     margin: 25px 0;
 }
+
 
 /* Thank you page for submitting sign-up form */
 
@@ -390,7 +385,7 @@ ol > li {
 
 .thank-you > a {
     text-decoration: none;
-    color: inherit;
+    color: rgb(51,102,0,0.8);
 }
 
 .thank-you > a:hover {
