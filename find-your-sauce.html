@@ -72,23 +72,21 @@
         <br>
         
         <p>
-          What chilli pepper do you usually prefer?
+          Which chilli pepper do you prefer?
         </p>
         
         <br>
         
         <label for="pepper1">Ancho</label>
-        <input type="checkbox" id="pepper1" name="pepper" value="Ancho"><br>
+        <input type="radio" id="pepper1" name="pepper" value="Ancho" required><br>
         <label for="pepper2">Poblano</label>
-        <input type="checkbox" id="pepper2" name="pepper" value="Poblano"><br>
+        <input type="radio" id="pepper2" name="pepper" value="Poblano"><br>
         <label for="pepper3">Jalapeno</label>
-        <input type="checkbox" id="pepper3" name="pepper" value="Jalapeno"><br>
+        <input type="radio" id="pepper3" name="pepper" value="Jalapeno"><br>
         <label for="pepper4">Scotch Bonnet</label>
-        <input type="checkbox" id="pepper4" name="pepper" value="Scotch Bonnet"><br>
+        <input type="radio" id="pepper4" name="pepper" value="Scotch Bonnet"><br>
         <label for="pepper5">Birds Eye</label>
-        <input type="checkbox" id="pepper5" name="pepper" value="Birds Eye"><br>
-        <label for="pepper6">Not Sure</label>
-        <input type="checkbox" id="pepper6" name="pepper" value="Not Sure"><br>
+        <input type="radio" id="pepper5" name="pepper" value="Birds Eye"><br>
         <label for="pepper7">Other (please specify)</label><br>
         <input class="text-input" type="text" id="pepper7" name="pepper"><br>
         
@@ -110,19 +108,28 @@
         <input type="checkbox" id="element4" name="element" value="Pure Heat"><br>
         
         <br>
+
+        <p>Are you feeling adventurous in trying new flavours?</p>
+
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="yes" value="Yes" required><br>
+        <label for="no">No  </label>
+        <input type="radio" id="no" name="no" value="No"><br>
+
+        <br>
         
         <label for="fname">First Name: </label><br>
-        <input class="text-input" type="text" id="fname" name="first_name" placeholder="First Name" required> <br>
+        <input class="text-input" type="text" id="fname" name="first_name" required> <br>
         
         <label for="lname">Last Name: </label><br>
-        <input class="text-input" type="text" id="lname" name="last_name" placeholder="Last Name" required> <br>
+        <input class="text-input" type="text" id="lname" name="last_name" required> <br>
         
-        <label for="email"> Email Address: </label><br>
-        <input class="text-input" type="email" id="email" name="email_address" placeholder ="Email Address" required><br>
+        <label for="email">Email Address: </label><br>
+        <input class="text-input" type="email" id="email" name="email_address" required><br>
         
         <br>
 
-        <label for="subscribe">Sign me up to receive monthly sauce related updates!</label>
+        <label for="subscribe">I want to subscribe to receive weekly sauce related updates including recipes, the latest sauce releases and more!</label>
         <input class="subscribe" type="checkbox" id="subscribe" name="subscribe" value="0"><br>
         
         <input class="join-button" type="submit" id="submit" name="submit" value="Find My Sauce!"><br>

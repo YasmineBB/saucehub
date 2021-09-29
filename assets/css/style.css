@@ -10,7 +10,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 200;
-    color: dimgray;
+    color: #696969;
     letter-spacing: 2px;
 }
 
@@ -18,7 +18,7 @@ body {
 
 h1, h2 {
     font-family: Bebas Neue, sans-serif;
-    color: dimgray;
+    color: #696969;
     font-size: 150%;
     margin: 10px;
     letter-spacing: 5px;
@@ -53,11 +53,12 @@ p {
     list-style-type: none;
     margin: 10px 10px;
     display: inline;
+    letter-spacing: 2px;
 }
 
 #menu a {
     text-decoration: none;
-    color: dimgray;
+    color: #696969;
 }
 
 #menu a:hover {
@@ -104,8 +105,9 @@ p {
 }
 
 .slogan {
-    margin: 30px;
+    margin: 30px 0;
     padding: 15px;
+    background-color: #D3D3D3;
 }
 
 .slogan > p {
@@ -120,7 +122,7 @@ p {
 }
 
 hr {
-    border-top: 1px solid dimgray;
+    border-top: 1px solid #696969;
     width: inherit;
     margin: 5px; 
 }
@@ -132,13 +134,14 @@ hr {
 }
 
 .slogan-two {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 100px 30px 50px 30px;
+    padding: 15px;
+    background-color: #D3D3D3;
 }
 
 #recipes {
-    height: 250px;
-    margin-top: 40px;
+    margin: 25px 0;
+    
 }
 
 
@@ -201,14 +204,15 @@ h3 {
     padding-top: 15px;
 }
 
+
 #recipe-one {
     text-align: center;
     width: 45rem;
     margin: 30px auto;
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
-    color: #ffff;
-    background-color: dimgray;
+    color: #222224;
+    background-color: #D3D3D3;
     opacity: 0.9;
     margin: auto;
     padding-bottom: 5rem;
@@ -231,7 +235,7 @@ h3 {
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
-    background-color: dimgray;
+    background-color: #696969;
     opacity: 0.9;
     padding-bottom: 5rem;
 }
@@ -252,7 +256,7 @@ h3 {
     border: 5px solid rgb(51,102,0,0.8);
     border-radius: 20px;
     color: #ffff;
-    background-color: dimgray;
+    background-color: #696969;
     opacity: 0.9;
     padding-bottom: 5rem;
 }
@@ -267,9 +271,9 @@ h3 {
 }
 
 ol {
-    background-color: lightgray;
+    background-color: #696969;
     opacity: 0.9;
-    color: rgb(36,34,34);
+    color: #fff;
     display: inline-block;
     list-style-position: inside;
 }
@@ -279,6 +283,9 @@ ol > p {
     padding-top: 15px;
 }
 
+ol > li {
+    padding: 15px;
+}
 
 /* Form */
 
@@ -294,10 +301,10 @@ ol > p {
 }
 
 .signup-form {
-    background-color: dimgray;
+    background-color: #D3D3D3;
     opacity: 0.95;
     text-align: center;
-    color: #ffff;
+    color: #222224;
     width: 45rem;
     margin: auto;
     border: 5px solid rgb(51,102,0,0.8);
@@ -313,7 +320,7 @@ ol > p {
 .form-section-heading {
     font-size: 200%;
     color: #fff;
-    padding: 30px;
+    margin: 30px;
 }
 
 .form-section p {
@@ -338,12 +345,17 @@ ol > p {
     border: 2px solid rgb(51,102,0);
 }
 
+.information {
+    text-align: justify;
+    text-justify: inter-character;
+}
+
 .join-button {
     background: transparent;
     font-family: Bebas Neue; 
     font-size: 120%;
     letter-spacing: 2px;
-    margin-top: 15px;
+    margin: 30px;
     padding: 15px 10px;
     color: #fff;
     border-block: 2px solid rgb(51,102,0);
@@ -353,11 +365,12 @@ ol > p {
 .join-button:hover {
     border-block: 5px solid rgb(51,102,0);
     border-radius: 20%;
+    
 }
 
 .volume {
     transform: scale(1.5);
-    margin-top: 10px;
+    margin-top: 10px;   
 }
 
 .subscribe {
@@ -408,8 +421,8 @@ ol > p {
     display: inline-block;
     font-size: 20px;
     padding: 15px 15px;
-    color: dimgray;
-    border: 2px solid dimgray;
+    color: #696969;
+    border: 2px solid #696969;
     border-radius: 50%;
 }
 
@@ -454,10 +467,12 @@ ol > p {
     .thank-you > a {
         text-decoration: none;
         color: rgb(51,102,0);
+        font-weight: bolder;
     }
 
     .description a {
         color: rgb(51,102,0);
+        font-weight: bolder;
     }
  
 }
@@ -473,7 +488,6 @@ ol > p {
     .social-networks {
         column-gap: 5rem;
         column-count: 2;
-        
     }
 
     #recipe-one, #recipe-two, #recipe-three {
@@ -483,10 +497,12 @@ ol > p {
     .thank-you > a {
         text-decoration: none;
         color: rgb(51,102,0);
+        font-weight: bolder;
     }
 
     .description a {
         color: rgb(51,102,0);
+        font-weight: bolder;
     }
 
 }
@@ -499,17 +515,24 @@ ol > p {
         width: 20rem;
     }
 
+    .social-networks {
+        column-gap: 5rem;
+        column-count: 2;   
+    }
+
     #recipe-one, #recipe-two, #recipe-three {
         width: 20rem;
     }
 
     .thank-you > a {
         text-decoration: none;
-        color: inherit;
+        color: rgb(51,102,0);
+        font-weight: bolder;
     }
 
     .description a {
         color: rgb(51,102,0);
+        font-weight: bolder;
     }
     
 }
