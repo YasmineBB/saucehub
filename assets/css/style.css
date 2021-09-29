@@ -141,7 +141,7 @@ hr {
 
 #recipes {
     margin: 25px 0;
-    
+    height: 7rem;
 }
 
 
@@ -214,7 +214,6 @@ h3 {
     color: #222224;
     background-color: #D3D3D3;
     opacity: 0.9;
-    margin: auto;
     padding-bottom: 5rem;
 }
 
