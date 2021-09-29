@@ -484,6 +484,18 @@ ol > li {
         column-count: 2;
     }
 
+    #mild:hover {
+        font-size: 115%;
+    }
+    
+    #medium:hover {
+        font-size: 115%;
+    }
+    
+    #hot:hover {
+        font-size: 115%;
+    }
+
     #recipe-one, #recipe-two, #recipe-three {
         width: 24rem;
     }
@@ -502,6 +514,10 @@ ol > li {
     ol {
         display: inline-block;
         list-style-position: inside;
+    }
+
+    .subscribe {
+        margin: 0;
     }
 
 }
