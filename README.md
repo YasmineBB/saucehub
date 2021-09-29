@@ -1,8 +1,8 @@
 # Saucehub
 
-Sauehub is a site with the intention of matching users with the perfect hot sauce for their own flavour preferences, as well as providing a hub of recipes to make their own.
+Sauehub is a site with the objective of matching users with the perfect hot sauce to match their palate and their spice level, as well as providing a hub of recipes to make their own.
 
-The site is targeted to those who use hot sauce and want to find more choice by providing both homemade and shop bought options catered to their palette. The site caters to all with the options to choose on a scale from mild to extra hot.
+The site is targeted to those who currently use hot sauce and want to find more choice by providing both homemade and shop bought options catered to their palette. In addition to this the site also caters to those without much current knowledge but who want to find out more about how they can find the right sauce for them.
 
 ## User Experience
 
@@ -50,9 +50,10 @@ I wanted a bolder font for the logo and headings, and a softer font for the majo
 
  ### Images 
 
-The images used in the site have a darker tone in nature
-Landing Page Hero Image
-The landing page includes a hero image of a basket of chillies and the colours are stark against the grey background which stands out to the user. Beneath the image is some leading text which, alongside the photo, hopes to show the user that this page will offer what they are looking for and provide them with incentive to stay. This slogan text also links to the Find Your Sauce and Make your sauce pages when hovered over on desktop view, and highlighted in green on mobile view.
+The images used in the site have a darker, grey tone to them.
+- Landing Page Hero Image
+The landing page includes a hero image of a basket of chillies and the colours are stark against the grey background which stands out to the user. 
+- 
 
 ### Layout
 
@@ -74,10 +75,14 @@ The chilli icon is also used again on the homepage and recipes page to represent
 
 The navigation bar has a hover feature which is fixed on the active page and appears when a user hovers over the other pages. 
 
+### Homepage
+
+Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site. This slogan text also links to the Find Your Sauce and Make your sauce pages when hovered over on desktop view, and highlighted in green on mobile view.
+
 
 ### Your Spice Level Section
 
-The spice level section provides a visually suggestive insight of what is to come on the page, with a list of common chillis used and their spice level. This will help them when going on to look for sauces in their preferred spice level range. 
+The Your Spice Level section provides a visual representation of what is to come on the page, with a list of common chillies used and their spice level. This will help them when going on to look for sauces in their preferred spice level range. 
 
 
 ### Footer Section
@@ -90,17 +95,16 @@ The footer section contains links to the four main social media sites:
 * Youtube
   
 In tying in with the colour scheme of the site, they are dimgray with a green hover feature. When clicked they open in a new tab. 
-This feature encourages the user to stay connected through social media, 
+This feature encourages the user to stay connected through social media.
 
 
 ### Find Your Sauce 
-This page has a form where users can answer questions to help them find the right sauce based on the answers they provide. There aren’t too many questions to avoid deterring the user.
+This page has a form where users can answer questions to help them find the right sauce to suit their palate, based on the answers they provide. There aren’t too many questions and this is to avoid deterring the user, particularly on first visit, with a time consuming form.
 
-The intention is to provide the consumer with a short selection of sauces on first use.
-thank you page submit form
+The intention is to provide the user with a short selection of sauces on the first use and on future visits, provide updated lists so as to stay up to date and give the user another reason to return.
 
 ### Make Your Sauce
-In addition to the feature to Find Your Sauce, the recipes page provides the option to Make Your Sauce. It has recipes in categories from Mild, Medium and Hot.
+In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes ranging from Mild to Medium and Hot. there is currently one recipe for each category and this would be expanded in future.  
 
 ### Thank You Form Submit 
 
@@ -116,21 +120,53 @@ In addition to the feature to Find Your Sauce, the recipes page provides the opt
 * Page on flavour profiles
   - Tying in with the *Which other elements do you like in your hot sauce?* question on the Find Your Sauce form, the site will expand to have a page 
 
+## Technologies Used
+
+* [GitHub](https://github.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Coolers.co](https://coolors.co/)
+* [Am I Responsive](http://ami.responsivedesign.is/)
+* [Can I Use](https://caniuse.com/)
+* [Compressor.io](https://compressor.io)
+
 ## Testing
+
+
 
 ### Validator Testing
 
-screen sizes
 
 * HTML
 * CSS
 
+### Other Testing
+* Chrome Dev Tools
+* 
+
+
+screen sizes
 
 ### Unfixed Bugs
+
+The only bug that remains after testing is a bug 
+I decided t
 
 
 ## Deployment
 
+### GitHub Pages
+To view a live preview of the site, the code has been deployed via GitHub pages. The following steps are to be followed in order to deploy via GitHub Pages:
+
+1. Log into GitHub account
+2. Navigate to the Repository
+3. Click on the 'Settings' tab
+4. Navigate to GitHub Pages towards the bottom of the page
+5. Click on 
+6. Under 'Source', select the dropdown which will be titled 'none'
+7. Select 'main'
+8. Click 'Save'
+9. 
 
 
 ## Credits
@@ -145,6 +181,9 @@ screen sizes
 * The landing page hero image was taken from pexels.com
 * The Make Your Sauce page background image was taken from unsplash.com
 * The Find Your Sauce page background image was taken from unsplash.com
+
+readme
+* colour pallette for read me https://postimg.cc/GB47wJwN/c97071df
 
 
 
