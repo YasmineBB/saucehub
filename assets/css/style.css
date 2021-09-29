@@ -450,6 +450,21 @@ ol > li {
         text-align: center;
     }
 
+    #mild:hover {
+        font-size: 115%;
+        border: none;
+    }
+    
+    #medium:hover {
+        font-size: 115%;
+        border: none;
+    }
+    
+    #hot:hover {
+        font-size: 115%;
+        border: none;
+    }
+
     #recipe-one, #recipe-two, #recipe-three {
         width: 35rem;
     }
@@ -467,6 +482,10 @@ ol > li {
     .description a {
         color: rgb(51,102,0);
         font-weight: bolder;
+    }
+
+    #recipes .fas {
+        font-size: 53%;
     }
  
 }
@@ -486,14 +505,17 @@ ol > li {
 
     #mild:hover {
         font-size: 115%;
+        border: none;
     }
     
     #medium:hover {
         font-size: 115%;
+        border: none;
     }
     
     #hot:hover {
         font-size: 115%;
+        border: none;
     }
 
     #recipe-one, #recipe-two, #recipe-three {
