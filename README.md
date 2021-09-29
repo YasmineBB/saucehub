@@ -11,20 +11,20 @@ The site is targeted to those who currently use hot sauce and want to find more 
 
 * As a site creator:
   
-  - I want to make the site visually appealing upon first visit so the user is intrigued to explore the site
+  - I want to make the site visually appealing upon first visit so the user is intrigued to explore the site.
   - I want to make sure the site is easy to navigate for the user
-  - I want the user to be able to easily find sauces to suit their palate
+  - I want the user to be able to easily find sauces to suit their palate.
 
 * As a first time user:
   
   - I want to 
-  - I want to be able to navigate easily throughout the pages
-  - I want to find sauce options tailored to my spice level
+  - I want to be able to navigate easily throughout the pages.
+  - I want to find sauce options tailored to my spice level.
   - 
 * As a returning user:
   
-  - I want to easily be able to return to and find recipes matching my spice level
-  - I want to be able build on the relationship and connect via social media 
+  - I want to easily be able to return to and find recipes matching my spice level.
+  - I want to be able build on the relationship and connect via social media.
 
 ## Design
 
@@ -35,8 +35,8 @@ I wanted a fairly minimalist overall design with a striking image on each page, 
 The colours I have chosen for the site maintain a simple, minimalist look with several shades of grey and a green feature colour.
 
 [![Colour-Pallette.png](https://i.postimg.cc/Xv8T5Q2V/Colour-Pallette.png)](https://postimg.cc/GB47wJwN)
-I chose green to be the complimentary color as it matches the green colour often associated with chillis and also matches with the green on the landing image. It is softer than red, a colour often associated with chillies and hot sauce but can often be too bold, and goes with the tone of the site. 
-The greys tie in wih the darker tone of the background images used in the site and the green complements the green in the hero image on the homepage. The green is used for the icons, borders and when the hover selector is used.
+I chose green to be the complimentary color as it matches the green colour often associated with chillies and also matches with the green on the landing page hero image. It is softer than red, a colour often associated with chillies and hot sauce but can often be too bold, and the green goes with the tone of the site. 
+The greys tie in wih the darker tone of the background images used in the site and the green complements the green in the hero image on the homepage. The green is also used for the icons, borders and when the hover selector is used.
 
 
 ### Typography 
@@ -51,9 +51,12 @@ I wanted a bolder font for the logo and headings, and a softer font for the majo
  ### Images 
 
 The images used in the site have a darker, grey tone to them.
-- Landing Page Hero Image
-The landing page includes a hero image of a basket of chillies and the colours are stark against the grey background which stands out to the user. 
-- 
+* Homepage 
+  - The Homepage includes a hero image of a basket of chillies and the colours are stark against the grey background which stands out to the user. 
+* Make Your Sauce
+  - The Make Your Sauce page includes a background image showing three bottles of suggestively home made sauces, representing the page for recipes.
+* Find Your Sauce
+  - The Find Your Sauce page includes a background image showing shelves filled with sauces, representing the page for finding bought sauces. The grey tone of this image ties in with the colour scheme for the site.
 
 ### Layout
 
@@ -113,36 +116,44 @@ In addition to the Find Your Sauce page, the Make Your Sauce page provides the u
 
 * Share Your Sauce - hub for sharing recipes and ideas
   - Building on the Find Your sauce and Make Your Sauce pages, a features idea for the future is to create a Share Your Sauce page where users can collaborate and share their recipe ideas in line with the varying spice range. 
-  - When you click on the name of the chilli used in each recipe, it takes you to a page with all recipes for that specific chilli
+  - When you click on the name of the chilli used in each recipe, it takes you to a page with all recipes for that specific chilli.
 
 * Wider categories on recipes page + extra hot etc
   - The Make Your Sauce page will expand to feature more recipes with a wider scope of spice level.
 * Page on flavour profiles
-  - Tying in with the *Which other elements do you like in your hot sauce?* question on the Find Your Sauce form, the site will expand to have a page 
+  - Tying in with the *Which other elements do you like in your hot sauce?* question on the Find Your Sauce form, the site will expand to have a page.
 
-## Technologies Used
-
-* [GitHub](https://github.com/)
-* [Google Fonts](https://fonts.google.com/)
-* [Font Awesome](https://fontawesome.com/)
-* [Coolers.co](https://coolors.co/)
-* [Am I Responsive](http://ami.responsivedesign.is/)
-* [Can I Use](https://caniuse.com/)
-* [Compressor.io](https://compressor.io)
 
 ## Testing
 
+Most of the testing was done using the Google Chrome Browser. Chrome Developer Tools was used, particularly to check responsiveness on different screen sizes. 
+Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
 
+### Desktop Testing
+* Logo and Navigation Bar
+  - User can easily navigate to all pages, from all pages, and can navigate back to the Home Page when clicking the Saucehub logo. 
+  
+* Home Page
+  - User is navigated to the Make Your Sauce and Find your Sauce pages when clicked on links.
+* Make Your Sauce Page
+  - User is navigated to relevent recipe upon clicking either Mild, Medium or Hot.
+* Find Your Sauce Page
+  - User must complete all required sections before submitting the form.
+  - User gets a warning if failing to use @ when typing their email address.
+  - User is taken to Thank You page when submitting the form.
+* Thank You Page
+  - User can navigate to any other page after subitting the form.
+  - User is able to click on suggested link to Make Your Sauce page as a next step.
 
+### Mobile Testing
+
+* The site is fully fuctional on Android devices using Google Chrome and Safari. One bug is present viewing the page on Safari and Chrome on iOS devices which is explained below in Testing.
+* 
 ### Validator Testing
 
 
 * HTML
 * CSS
-
-### Other Testing
-* Chrome Dev Tools
-* 
 
 
 screen sizes
@@ -171,16 +182,25 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 
 ## Credits
 
+### Technologies Used
+
+* [GitHub](https://github.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Coolers.co](https://coolors.co/)
+* [Am I Responsive](http://ami.responsivedesign.is/)
+* [Can I Use](https://caniuse.com/)
+* [Compressor.io](https://compressor.io)
+
 ### Content
 
-* The icons use on the site were taken from Font Awesome
 * All other content is the developers own
 
 ### Media
 
-* The landing page hero image was taken from pexels.com
-* The Make Your Sauce page background image was taken from unsplash.com
-* The Find Your Sauce page background image was taken from unsplash.com
+* The landing page hero image was taken from pexels.com.
+* The Make Your Sauce page background image was taken from unsplash.com.
+* The Find Your Sauce page background image was taken from unsplash.com.
 
 readme
 * colour pallette for read me https://postimg.cc/GB47wJwN/c97071df
