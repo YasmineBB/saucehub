@@ -1,8 +1,10 @@
 # Saucehub
 
+![Image of Site on Various devices](assets/screenshots/am-i-responsive.png)
+
 Sauehub is a site with the objective of matching users with the perfect hot sauce to match their palate and their spice level, as well as providing a hub of recipes to make their own.
 
-The site is targeted to those who currently use hot sauce and want to find more choice by providing both homemade and shop bought options catered to their palette. In addition to this the site also caters to those without much current knowledge but who want to find out more about how they can find the right sauce for them.
+The site is targeted to those who currently use hot sauce and want to find more choice by providing both homemade and shop bought options catered to their palate. In addition to this, the site also caters to those who may not have much current knowledge but who would like to explore this and find out more about how they can find the right sauce for them.
 
 ## User Experience
 
@@ -12,19 +14,21 @@ The site is targeted to those who currently use hot sauce and want to find more 
 * As a site creator:
   
   - I want to make the site visually appealing upon first visit so the user is intrigued to explore the site.
-  - I want to make sure the site is easy to navigate for the user
+  - I want to make sure the site is easy to navigate for the user.
   - I want the user to be able to easily find sauces to suit their palate.
 
 * As a first time user:
   
-  - I want to 
+  - I want to find sauce options tailored to my palate.
+  - I want to find out about the spice levels of various chillies
   - I want to be able to navigate easily throughout the pages.
-  - I want to find sauce options tailored to my spice level.
-  - 
+  
+  
 * As a returning user:
   
   - I want to easily be able to return to and find recipes matching my spice level.
-  - I want to be able build on the relationship and connect via social media.
+  - I want to be able to recive updated suggestions of sauces to suit my palate.
+  - I want to be able build on the relationship by subscribing to a newsletter to receive updates and connect via social media.
 
 ## Design
 
@@ -35,8 +39,8 @@ I wanted a fairly minimalist overall design with a striking image on each page, 
 The colours I have chosen for the site maintain a simple, minimalist look with several shades of grey and a green feature colour.
 
 [![Colour-Pallette.png](https://i.postimg.cc/Xv8T5Q2V/Colour-Pallette.png)](https://postimg.cc/GB47wJwN)
-I chose green to be the complimentary color as it matches the green colour often associated with chillies and also matches with the green on the landing page hero image. It is softer than red, a colour often associated with chillies and hot sauce but can often be too bold, and the green goes with the tone of the site. 
-The greys tie in wih the darker tone of the background images used in the site and the green complements the green in the hero image on the homepage. The green is also used for the icons, borders and when the hover selector is used.
+I chose green to be the complementary colour as it matches the green colour often associated with chillies and also matches with the green on the Homepage hero image. It is softer than red, a colour often associated with chillies and hot sauce but can often be too bold, and the green goes with the tone of the site. The green is also used for the icons, borders and when the hover selector is used.
+The greys tie in wih the darker tone of the background images used across the site. White is used as a background colour for the rest of the site.
 
 
 ### Typography 
