@@ -98,7 +98,9 @@ p {
 
 .description a {
     color: rgb(51,102,0,0.8);
+    font-size: 120%;
 }
+
 .description a:hover {
     border-block: 2px solid rgb(51,102,0,0.8);
     border-radius: 20%;
@@ -107,6 +109,8 @@ p {
 .slogan {
     margin: 30px 0;
     padding: 15px;
+    background-color: #D3D3D3;
+    border-radius: 20%;
    
 }
 
@@ -328,7 +332,8 @@ ol > li {
 }
 
 .text-input {
-    color: #696969;
+    background-color: #222224;
+    color: #D3D3D3;
     font-size: inherit;
     width: 50%;
     padding: 5px 10px;
@@ -361,9 +366,9 @@ ol > li {
     
 }
 
-.volume {
+#volume {
     transform: scale(1.5);
-    margin-top: 10px;   
+    margin-top: 20px;   
 }
 
 .subscribe {
@@ -386,6 +391,7 @@ ol > li {
 .thank-you > a {
     text-decoration: none;
     color: rgb(51,102,0,0.8);
+    font-size: 120%;
 }
 
 .thank-you > a:hover {
@@ -472,21 +478,6 @@ ol > li {
     .signup-form {
         width: 35rem;
     }
-
-    .thank-you > a {
-        text-decoration: none;
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
-
-    .description a {
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
-
-    #recipes .fas {
-        font-size: 53%;
-    }
  
 }
 
@@ -526,16 +517,6 @@ ol > li {
         width: 24rem;
     }
 
-    .thank-you > a {
-        text-decoration: none;
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
-
-    .description a {
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
 
     ol {
         display: inline-block;
@@ -585,16 +566,6 @@ ol > li {
         border: none;
     }
 
-    .thank-you > a {
-        text-decoration: none;
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
-
-    .description a {
-        color: rgb(51,102,0);
-        font-weight: bolder;
-    }
 
     ol {
         display: inline-block;

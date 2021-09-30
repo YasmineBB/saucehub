@@ -147,7 +147,7 @@ Testing was also done using Safari and Mozilla Firefox on desktop, and again on 
 
 ### Mobile Testing
 
-* The site is fully fuctional on Android devices using Google Chrome and Safari. One bug is present viewing the page on Safari and Chrome on iOS devices which is explained below in Testing.
+* The site is fully fuctional on Android devices using Google Chrome and Safari. One bug is present viewing the page on Safari and Chrome on iOS devices which is explained below in Unfixed Bugs.
 * 
 ### Validator Testing
 
@@ -158,10 +158,11 @@ Testing was also done using Safari and Mozilla Firefox on desktop, and again on 
 
 screen sizes
 
+
 ### Unfixed Bugs
 
-The only bug that remains after testing is a bug 
-I decided t
+The only bug that remains after testing is a bug within Apple. iOS devices dont seem to render 
+After deliberating and I decided to keep the styling which works on the majority of devices and on desktop.
 
 
 ## Deployment
