@@ -17,7 +17,7 @@ body {
 /* Headings and logo*/
 
 h1, h2 {
-    font-family: Bebas Neue, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: #696969;
     font-size: 150%;
     margin: 10px;
@@ -271,7 +271,7 @@ h3 {
 ol {
     background-color: #696969;
     opacity: 0.9;
-    color: #fff;
+    color: #D3D3D3;
     display: inline-block;
     list-style-position: inside;
 }
@@ -343,12 +343,12 @@ ol > li {
 
 .join-button {
     background: transparent;
-    font-family: Bebas Neue; 
+    font-family: 'Bebas Neue'; 
     font-size: 150%;
     letter-spacing: 2px;
     margin: 30px;
     padding: 15px 10px;
-    color: #696969;
+    color: #222224;
     border-block: 3px solid #222224;
     border-radius: 30px;
 }
@@ -546,3 +546,55 @@ ol > li {
 
 /* For extra small screens from size 414px and down */
 
+@media screen and (max-width: 414px) {
+
+    .signup-form {
+        width: 20rem;
+    }
+
+    .social-networks {
+        column-gap: 5rem;
+        column-count: 2;   
+    }
+
+    #recipe-one, #recipe-two, #recipe-three {
+        width: 20rem;
+    }
+
+
+    #mild:hover {
+        font-size: 115%;
+        border: none;
+    }
+    
+    #medium:hover {
+        font-size: 115%;
+        border: none;
+    }
+    
+    #hot:hover {
+        font-size: 115%;
+        border: none;
+    }
+
+    .thank-you > a {
+        text-decoration: none;
+        color: rgb(51,102,0);
+        font-weight: bolder;
+    }
+
+    .description a {
+        color: rgb(51,102,0);
+        font-weight: bolder;
+    }
+
+    ol {
+        display: inline-block;
+        list-style-position: inside;
+    }
+
+    .subscribe {
+        margin: 0;
+    }
+    
+}
