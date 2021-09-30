@@ -140,7 +140,7 @@ The user is directed to a Thank You page after submitting the form on the Find Y
   - All HTML was passed through the W3C validator, passing with no errors.
   
 * CSS
-  - All CSS was passed through the Jigsaw W3C, passing with no errors.
+  - All CSS was passed through the Jigsaw W3C validator, passing with no errors.
 
 The majority of testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. 
 Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
@@ -185,7 +185,7 @@ Using media queries, I have made the following uodates to ensure responsiveness 
 
 
 
-### Unfixed Bugs
+### Known Bugs
 
 One bug that remains after testing is the background images not rendering on iOS devices, which dont support the background-attachment: fixed property, due to a bug. This is the case on both Safari and Chrome.
 
@@ -234,9 +234,9 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 
 ### Media
 
-* The landing page hero image was taken from pexels.com.
-* The Make Your Sauce page background image was taken from unsplash.com.
-* The Find Your Sauce page background image was taken from unsplash.com.
+* The landing page hero image was taken from [pexels](https://www.pexels.com/photo/focus-photo-of-round-brown-wooden-bowl-filled-with-chili-lot-1092612/).
+* The Make Your Sauce page background image was taken from [unsplash](https://unsplash.com/photos/yzBnzI2kOmg).
+* The Find Your Sauce page background image was taken from [unsplash](https://unsplash.com/photos/HsTLD7Z2bf0).
 
 
 
