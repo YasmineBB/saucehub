@@ -15,7 +15,7 @@ The site is targeted to those who currently use hot sauce and want to find more 
 
 * As a site creator:
   
-  - I want to make the site visually appealing upon first visit so the user is intrigued to explore the site.
+  - I want to make the site visually appealing upon first visit so the user is intrigued to explore the site further.
   - I want to make sure the site is easy to navigate for the user.
   - I want the user to be able to easily find sauces to suit their palate.
 
@@ -34,14 +34,14 @@ The site is targeted to those who currently use hot sauce and want to find more 
 
 ## Design
 
-I wanted a fairly minimalist overall design with a striking image on each page, few colours that complement each other and 
+I wanted a fairly minimalist overall design with a striking image on each page and a range of colours that complement each other.
 
 ### Colour Scheme
 
 The colours I have chosen for the site maintain a simple, minimalist look with several shades of grey and a green feature colour.
 
 [![Colour-Pallette.png](https://i.postimg.cc/Xv8T5Q2V/Colour-Pallette.png)](https://postimg.cc/GB47wJwN)
-I chose green to be the complementary colour as it matches the green colour often associated with chillies and also matches with the green on the Homepage hero image. It is softer than red, a colour often associated with chillies and hot sauce but can often be too bold, and the green goes with the tone of the site. The green is also used for the icons, borders and when the hover selector is used.
+I chose green to be the feature colour as it matches the green that is often associated with chillies and also matches with the green on the Homepage hero image. It is softer than red, a colour often associated with chillies and hot sauce but can often be too bold, and the green goes with the tone of the site. The green is also used for the icons, borders, when the hover selector is used and to highlight a page for the reader to be directed to.
 The greys tie in wih the darker tone of the background images used across the site. White is used as a background colour for the rest of the site.
 
 
@@ -64,12 +64,13 @@ The images used in the site have a darker, grey tone to them.
 * Find Your Sauce
   - The Find Your Sauce page includes a background image showing shelves filled with sauces, representing the page for finding bought sauces. The grey tone of this image ties in with the colour scheme for the site.
 
-### Layout
-
 ## Features
 
 
 ### Logo and Navigation Bar
+
+![Logo](assets/screenshots/logo.png)
+
 
 
 The logo and navigation bar are all fully responsive, featuring on all three pages on the navigation bar, as well as the Thank You page the user sees when submitting the form on the Find Your Sauce page. 
@@ -86,7 +87,7 @@ The navigation bar has a hover feature which is fixed on the active page and app
 
 ### Homepage
 
-Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site. This slogan text also links to the Find Your Sauce and Make your sauce pages when hovered over on desktop view, and highlighted in green on mobile view.
+Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site. This slogan text also links to the Find Your Sauce and Make your sauce pages and is highlighted in green with a slightly larger font to maintain good accessibility.
 
 
 ### Your Spice Level Section
@@ -107,12 +108,12 @@ In tying in with the colour scheme of the site, they are dimgray with a green ho
 This feature encourages the user to stay connected through social media.
 
 
-### Find Your Sauce 
+### Find Your Sauce page
 The Find Your Sauce page has a form where users can answer questions to help them find the right sauce to suit their palate, based on the answers they provide. There aren’t too many questions and this is to avoid deterring the user, particularly on first visit, with a time consuming form.
 
 The intention is to provide the user with a short selection of sauces on the first use and on future visits, provide updated lists so as to stay up to date and give the user another reason to return.
 
-### Make Your Sauce
+### Make Your Sauce page
 In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes, currently ranging from Mild to Hot. At the moment there is one recipe for each category and this would be expanded in future.  
 
 ### Thank You (Form Submit)
@@ -163,15 +164,25 @@ When running Lighthouse testing, I used an incognito window after I was having s
   - User can navigate to any other page after subitting the form.
   - User is able to click on suggested link to Make Your Sauce page as a next step which is also highlighted in green with a slightly larger font size to be accessible to the user.
 
-screen sizes
+### Responsiveness - Mobile 
 The site is reponsive on screensizes down to 320px, the smallest mobile screensize.
+
+Using media queries, I have made the following uodates to ensure responsiveness across a range of screen sizes.
+
+* Adjusting the width size for the recipes on the Make Your Sauce page and the form on the Find Your Sauce page.
+* Adding a flex-direction property to layer the navigation bar for screen sizes 768px and down.
+* Add a column property to the social media icons for screen sizes 576px and down.
+* Remove the hover selector on the recipes page Mild, Medium, Hot section for screen sizes 768px and down as its not user friendly on mobile view and is better suited to desktop view.
+
 
 
 ### Unfixed Bugs
 
 One bug that remains after testing is the background images not rendering on iOS devices, which dont support the background-attachment: fixed property, due to a bug. This is the case on both Safari and Chrome.
+
 ![Can I Use 1](assets/screenshots/can-i-use-1.png)
 ![Can I Use 2](assets/screenshots/can-i-use-2.png)
+
 In testing this issue I first compressed the images which didnt solve the issue.
 After deliberating, I decided not to redesign and compromise on the styling, which works on the majority of devices and on desktop, for the purposes of this project.
 
@@ -194,12 +205,19 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 ### Technologies Used
 
 * [GitHub](https://github.com/)
+  - GitHub was used to create the repository and deploy the site.
 * [Google Fonts](https://fonts.google.com/)
+  - Bebas Neue and Roboto fonts used in the site are taken from Google Fonts.
 * [Font Awesome](https://fontawesome.com/)
+  - Icons used in the navigation bar and the social media icons used in the footer section are taken from Font Awesome.
 * [Coolers.co](https://coolors.co/)
+  - The colour scheme was generated in Coolers.
 * [Am I Responsive](http://ami.responsivedesign.is/)
+  - Am I Responsive was used as part of my testing of the sites responsiveness on various screen sizes.
 * [Can I Use](https://caniuse.com/)
+  - Can I Use was used when investigating bugs, specifically the bug found on the background-attachment:fixed property on iOS devices.
 * [Compressor.io](https://compressor.io)
+  - compressor was used to compress the images used on the site.
 
 ### Content
 
