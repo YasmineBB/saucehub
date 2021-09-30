@@ -148,6 +148,11 @@ When running Lighthouse testing, I used an incognito window after I was having s
 
 * [Lighthouse Testing Images](lighthouse.md)
 
+One issue that was flagged when running Lighthouse checks are:
+* The background colour (#D3D3D3) initially used on text-input on the form didn't have a high level of contrast against the form background colour. This colour has been changed to a darker colour (#222224) for better accessibility.
+![Lighthouse testing contrast](assets/screenshots/lighthouse-testing-text-input.png)
+
+
 ### Mobile and Desktop Testing
 * Logo and Navigation Bar
   - User can easily navigate to all pages, from all pages, and can navigate back to the Home Page when clicking the Saucehub logo. 
