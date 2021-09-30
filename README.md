@@ -137,7 +137,10 @@ The user is directed to a Thank You page after submitting the form on the Find Y
 
 
 * HTML
+  - All HTML was passed through the W3C validator, passing with no errors.
+  
 * CSS
+  - All CSS was passed through the Jigsaw W3C, passing with no errors.
 
 The majority of testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. 
 Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
@@ -150,6 +153,7 @@ When running Lighthouse testing, I used an incognito window after I was having s
 
 One issue that was flagged when running Lighthouse checks are:
 * The background colour (#D3D3D3) initially used on text-input on the form didn't have a high level of contrast against the form background colour. This colour has been changed to a darker colour (#222224) for better accessibility.
+  
 ![Lighthouse testing contrast](assets/screenshots/lighthouse-testing-text-input.png)
 
 
