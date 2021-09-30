@@ -6,6 +6,8 @@ Sauehub is a site with the objective of matching users with the perfect hot sauc
 
 The site is targeted to those who currently use hot sauce and want to find more choice by providing both homemade and shop bought options catered to their palate. In addition to this, the site also caters to those who may not have much current knowledge but who would like to explore this and find out more about how they can find the right sauce for them.
 
+[View site by clicking here](https://yasminebb.github.io/saucehub/index.html)
+
 ## User Experience
 
 
@@ -106,26 +108,26 @@ This feature encourages the user to stay connected through social media.
 
 
 ### Find Your Sauce 
-This page has a form where users can answer questions to help them find the right sauce to suit their palate, based on the answers they provide. There aren’t too many questions and this is to avoid deterring the user, particularly on first visit, with a time consuming form.
+The Find Your Sauce page has a form where users can answer questions to help them find the right sauce to suit their palate, based on the answers they provide. There aren’t too many questions and this is to avoid deterring the user, particularly on first visit, with a time consuming form.
 
 The intention is to provide the user with a short selection of sauces on the first use and on future visits, provide updated lists so as to stay up to date and give the user another reason to return.
 
 ### Make Your Sauce
-In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes ranging from Mild to Medium and Hot. there is currently one recipe for each category and this would be expanded in future.  
+In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes, currently ranging from Mild to Hot. At the moment there is one recipe for each category and this would be expanded in future.  
 
-### Thank You Form Submit 
-
+### Thank You (Form Submit)
+The user is directed to a Thank You page after submitting the form on the Find Your Sauce page which encourages them to connect via social media and redirects them to the Make Your sauce page.
 
 ### Future Features 
 
-* Share Your Sauce - hub for sharing recipes and ideas
-  - Building on the Find Your sauce and Make Your Sauce pages, a features idea for the future is to create a Share Your Sauce page where users can collaborate and share their recipe ideas in line with the varying spice range. 
-  - When you click on the name of the chilli used in each recipe, it takes you to a page with all recipes for that specific chilli.
+* Share Your Sauce
+  - Building on the Find Your sauce and Make Your Sauce pages, a feature idea for the future is to create a Share Your Sauce page which users can use as a hub to collaborate and share their recipe ideas in line with the varying spice range. 
+  - When you click on the name of the chilli used in each recipe, it takes you to a page with all the recipes for that specific chilli.
 
-* Wider categories on recipes page + extra hot etc
+* Wider categories on Make Your Sauce page
   - The Make Your Sauce page will expand to feature more recipes with a wider scope of spice level.
 * Page on flavour profiles
-  - Tying in with the *Which other elements do you like in your hot sauce?* question on the Find Your Sauce form, the site will expand to have a page.
+  - Tying in with the *Which other elements do you like in your hot sauce?* question on the Find Your Sauce form, the site will expand to have a page explaining all of the elements that can be found and used in sauce recipes, with suggestions of what other ingredients to pair them with.
 
 
 ## Testing
@@ -136,7 +138,7 @@ In addition to the Find Your Sauce page, the Make Your Sauce page provides the u
 * HTML
 * CSS
 
-Most of the testing was done using the Google Chrome Browser. Chrome Developer Tools was used, particularly to check responsiveness on different screen sizes. 
+The majority of testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. 
 Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
 
 ### Chrome Dev Tools - Lighthouse
@@ -145,7 +147,7 @@ When running Lighthouse testing, I used an incognito window after I was having s
 
 * [Lighthouse Testing Images](lighthouse.md)
 
-### Desktop Testing
+### Mobile and Desktop Testing
 * Logo and Navigation Bar
   - User can easily navigate to all pages, from all pages, and can navigate back to the Home Page when clicking the Saucehub logo. 
   
@@ -161,19 +163,17 @@ When running Lighthouse testing, I used an incognito window after I was having s
   - User can navigate to any other page after subitting the form.
   - User is able to click on suggested link to Make Your Sauce page as a next step which is also highlighted in green with a slightly larger font size to be accessible to the user.
 
-### Mobile Testing
-
-* The site is fully fuctional on Android devices using Google Chrome and Safari. One bug is present viewing the page on Safari and Chrome on iOS devices which is explained below in Unfixed Bugs.
-* 
 screen sizes
+The site is reponsive on screensizes down to 320px, the smallest mobile screensize.
 
 
 ### Unfixed Bugs
 
 One bug that remains after testing is the background images not rendering on iOS devices, which dont support the background-attachment: fixed property, due to a bug. This is the case on both Safari and Chrome.
+![Can I Use 1](assets/screenshots/can-i-use-1.png)
+![Can I Use 2](assets/screenshots/can-i-use-2.png)
 In testing this issue I first compressed the images which didnt solve the issue.
 After deliberating, I decided not to redesign and compromise on the styling, which works on the majority of devices and on desktop, for the purposes of this project.
-
 
 ## Deployment
 
@@ -211,8 +211,6 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 * The Make Your Sauce page background image was taken from unsplash.com.
 * The Find Your Sauce page background image was taken from unsplash.com.
 
-readme
-* colour pallette for read me https://postimg.cc/GB47wJwN/c97071df
 
 
 
