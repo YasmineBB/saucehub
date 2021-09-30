@@ -503,8 +503,8 @@ ol > li {
         column-count: 2;
     }
 
-    #recipes {
-        font-size: 75%;
+    #mild, #hot, #medium {
+        padding: 15px;
     }
 
     #mild:hover {
@@ -561,6 +561,10 @@ ol > li {
         column-count: 2;   
     }
 
+    #mild, #hot, #medium {
+        padding: 15px;
+    }
+
     #recipe-one, #recipe-two, #recipe-three {
         width: 20rem;
     }
@@ -599,6 +603,15 @@ ol > li {
 
     .subscribe {
         margin: 0;
+    }
+    
+}
+
+/* For screen sizes 378px and down */
+@media screen and (max-width: 378px) {
+
+    #recipe-one, #recipe-two, #recipe-three {
+        width: 18rem;
     }
     
 }
