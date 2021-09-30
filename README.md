@@ -141,7 +141,7 @@ The user is directed to a Thank You page after submitting the form on the Find Y
 The majority of testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. 
 Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
 
-### Chrome Dev Tools - Lighthouse
+### Chrome Dev Tools Lighthouse
 
 When running Lighthouse testing, I used an incognito window after I was having some issues with performance ratings caused by my Chrome extensions.
 
