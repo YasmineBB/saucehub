@@ -503,6 +503,10 @@ ol > li {
         column-count: 2;
     }
 
+    #recipes {
+        font-size: 75%;
+    }
+
     #mild:hover {
         font-size: 115%;
         border: none;
