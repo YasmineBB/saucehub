@@ -1,0 +1,1 @@
+[!Lighthouse testing text input](assets/screenshots/lighthouse-testing-text-input.png)

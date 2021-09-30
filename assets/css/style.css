@@ -82,7 +82,6 @@ p {
     height: 500px;
     width: 100%;
     background: url('../images/chillies-in-market.jpg') no-repeat center center;
-    background-position: center;
     background-size: cover;
     position: relative;
     background-attachment: fixed !important;
@@ -293,12 +292,12 @@ ol > li {
 
 .form-section {
     background: url('../images/sauces-in-store-black-and-white.jpeg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     padding: 75px 0;
     position: relative;
-    background-size: cover;
     opacity: 0.9;
-    background-attachment: fixed;
     line-height: 1.25; 
 }
 

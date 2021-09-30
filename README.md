@@ -126,15 +126,27 @@ In addition to the Find Your Sauce page, the Make Your Sauce page provides the u
 
 ## Testing
 
+### Validator Testing
+
+
+* HTML
+* CSS
+
 Most of the testing was done using the Google Chrome Browser. Chrome Developer Tools was used, particularly to check responsiveness on different screen sizes. 
 Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
+
+### Chrome Dev Tools - Lighthouse
+
+When running Lighthouse testing, I used an incognito window after I was having some issues with performance ratings caused by my Chrome extensions.
+
+* [Lighthouse Testing Images](lighthouse.md)
 
 ### Desktop Testing
 * Logo and Navigation Bar
   - User can easily navigate to all pages, from all pages, and can navigate back to the Home Page when clicking the Saucehub logo. 
   
 * Home Page
-  - User is navigated to the Make Your Sauce and Find your Sauce pages when clicked on links.
+  - User is navigated to the Make Your Sauce and Find your Sauce pages when clicked on links and these are highlighted in green with a slightly larger font size to be accessible to the user.
 * Make Your Sauce Page
   - User is navigated to relevent recipe upon clicking either Mild, Medium or Hot.
 * Find Your Sauce Page
@@ -143,26 +155,20 @@ Testing was also done using Safari and Mozilla Firefox on desktop, and again on 
   - User is taken to Thank You page when submitting the form.
 * Thank You Page
   - User can navigate to any other page after subitting the form.
-  - User is able to click on suggested link to Make Your Sauce page as a next step.
+  - User is able to click on suggested link to Make Your Sauce page as a next step which is also highlighted in green with a slightly larger font size to be accessible to the user.
 
 ### Mobile Testing
 
 * The site is fully fuctional on Android devices using Google Chrome and Safari. One bug is present viewing the page on Safari and Chrome on iOS devices which is explained below in Unfixed Bugs.
 * 
-### Validator Testing
-
-
-* HTML
-* CSS
-
-
 screen sizes
 
 
 ### Unfixed Bugs
 
-The only bug that remains after testing is a bug within Apple. iOS devices dont seem to render 
-After deliberating and I decided to keep the styling which works on the majority of devices and on desktop.
+One bug that remains after testing is the background images not rendering on iOS devices, which dont support the background-attachment: fixed property, due to a bug. This is the case on both Safari and Chrome.
+In testing this issue I first compressed the images which didnt solve the issue.
+After deliberating, I decided not to redesign and compromise on the styling, which works on the majority of devices and on desktop, for the purposes of this project.
 
 
 ## Deployment
@@ -170,15 +176,13 @@ After deliberating and I decided to keep the styling which works on the majority
 ### GitHub Pages
 To view a live preview of the site, the code has been deployed via GitHub pages. The following steps are to be followed in order to deploy via GitHub Pages:
 
-1. Log into GitHub account
-2. Navigate to the Repository
-3. Click on the 'Settings' tab
-4. Navigate to GitHub Pages towards the bottom of the page
-5. Click on 
-6. Under 'Source', select the dropdown which will be titled 'none'
-7. Select 'main'
-8. Click 'Save'
-9. 
+1. Log into GitHub account.
+2. Navigate to the Repository.
+3. Click on the 'Settings' tab.
+4. Navigate to 'GitHub Pages' on the lefthand sidebar.
+5. Under 'Source', select the dropdown which will be titled 'None'.
+6. Select 'Main'.
+7. Click 'Save'.
 
 
 ## Credits
@@ -195,7 +199,7 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 
 ### Content
 
-* All other content is the developers own
+* All other content is the developers own.
 
 ### Media
 
