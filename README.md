@@ -72,7 +72,6 @@ The images used in the site have a darker, grey tone to them.
 ![Logo](assets/screenshots/logo.png)
 
 
-
 The logo and navigation bar are all fully responsive, featuring on all three pages on the navigation bar, as well as the Thank You page the user sees when submitting the form on the Find Your Sauce page. 
 
 
@@ -81,9 +80,9 @@ The navigation bar contains Font Awesome icons to visually illustrate what the p
 * A Mortar and Pestle icon to represent the recipes on the Make Your Sauce page
 * A Chilli icon to represent the Find Your Sauce page
 
-This is the mobile view of the navigation bar.
+The mobile view of the navigation bar is also responsive, ensuring the site is easily to navigate across all devices.
 
-![Nav bar mobile view](assets/screenshots/nav-bar-mobile-view.png)
+  ![Nav-bar-mobile-view](assets/screenshots/nav-bar-mobile-view.png)
 
 This aligns with the first time user story:
 - *I want to be able to navigate easily throughout the pages.*
@@ -105,7 +104,7 @@ This slogan text also links to the Find Your Sauce and Make your sauce pages and
 
 ### Your Spice Level Section
 
-![Your-spice-level](assets/screenshots/your-spice-level.png)
+![Your-spice-level](assets/screenshots/spice-level.png)
 
 The Your Spice Level section provides a visual representation of what is to come on the site, with a list of common chillies used and their spice level. This will help them when going on to look for sauces in their preferred spice level range.
 
@@ -148,7 +147,7 @@ On this page the user also has the option of subscribing to receive updates, ali
 
 - *I want to be able build on the relationship by subscribing to a newsletter to receive updates[. . .]*
 
-![Subsribe](assets/screenshots/subscribe.png)
+* ![Subscribe](assets/screenshots/subscribe.png)
 
 
 ### Make Your Sauce page
@@ -164,6 +163,9 @@ This aligns with the user story:
 - *I want to easily be able to return to and find recipes matching my spice level.*
 
 ### Thank You (Form Submit)
+
+![Thank-you](assets/screenshots/thank-you.png)
+
 The user is directed to a Thank You page after submitting the form on the Find Your Sauce page which encourages them to connect via social media and redirects them to the Make Your sauce page.
 
 ### Future Features 
@@ -202,30 +204,35 @@ One issue that was flagged when running Lighthouse checks are:
 * The background colour (#D3D3D3) initially used on text-input on the form didn't have a high level of contrast against the form background colour. 
   
   
-![Lighthouse testing contrast](assets/screenshots/lighthouse-testing-text-input.png)
+![Lighthouse-testing-contrast](assets/screenshots/lighthouse-testing-text-input.png)
 
 This colour has been changed to a darker colour (#222224) for better accessibility resulting in a 100% Lighthouse Accessibility score for this page on both mobile and desktop.
 
-![Updated text input contrast](assets/screenshots/updated-text-input.png)
+![Updated-text-input-contrast](assets/screenshots/updated-text-input.png)
 
 
 ### Mobile and Desktop Testing
+
 * Logo and Navigation Bar
   - User can easily navigate to all pages, from all pages, and can navigate back to the Home Page when clicking the Saucehub logo. 
-  
+
 * Home Page
   - User is navigated to the Make Your Sauce and Find your Sauce pages when clicked on links and these are highlighted in green with a slightly larger font size to be accessible to the user.
+
 * Make Your Sauce Page
   - User is navigated to relevent recipe upon clicking either Mild, Medium or Hot.
+  
 * Find Your Sauce Page
   - User must complete all required sections before submitting the form.
   - User gets a warning if failing to use @ when typing their email address.
   - User is taken to Thank You page when submitting the form.
+  
 * Thank You Page
   - User can navigate to any other page after subitting the form.
   - User is able to click on suggested link to Make Your Sauce page as a next step which is also highlighted in green with a slightly larger font size to be accessible to the user.
 
 ### Responsiveness - Mobile 
+
 The site is reponsive on screensizes down to 320px, the smallest mobile screensize.
 
 Using media queries, I have made the following updates to ensure responsiveness across a range of screen sizes.
@@ -241,8 +248,8 @@ Using media queries, I have made the following updates to ensure responsiveness 
 
 One bug that remains after testing is the background images not rendering on iOS devices, which dont support the background-attachment: fixed property, due to a bug. This is the case on both Safari and Chrome.
 
-![Can I Use 1](assets/screenshots/can-i-use-1.png)
-![Can I Use 2](assets/screenshots/can-i-use-2.png)
+![Can-I-Use-1](assets/screenshots/can-i-use-1.png)
+![Can-I-Use-2](assets/screenshots/can-i-use-2.png)
 
 In testing this issue I first compressed the images which didnt solve the issue.
 After deliberating, I decided not to redesign and compromise on the styling, which works on the majority of devices and on desktop, for the purposes of this project.
