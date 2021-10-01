@@ -29,7 +29,7 @@ The site is targeted to those who currently use hot sauce and want to find more 
 * As a returning user:
   
   - I want to easily be able to return to and find recipes matching my spice level.
-  - I want to be able to recive updated suggestions of sauces to suit my palate.
+  - I want to be able to receive updated suggestions of sauces to suit my palate.
   - I want to be able build on the relationship by subscribing to a newsletter to receive updates and connect via social media.
 
 ## Design
@@ -81,21 +81,42 @@ The navigation bar contains Font Awesome icons to visually illustrate what the p
 * A Mortar and Pestle icon to represent the recipes on the Make Your Sauce page
 * A Chilli icon to represent the Find Your Sauce page
 
-The chilli icon is also used again on the homepage and recipes page to represent the sites intentions for example to illustrate the spice level.
+This is the mobile view of the navigation bar.
+
+![Nav bar mobile view](assets/screenshots/nav-bar-mobile-view.png)
+
+This aligns with the first time user story:
+- *I want to be able to navigate easily throughout the pages.*
+  
+
+The chilli icon is also used again on the homepage and recipes page to represent the sites intentions, for example to illustrate the spice level.
 
 The navigation bar has a hover feature which is fixed on the active page and appears when a user hovers over the other pages. 
 
+
 ### Homepage
 
-Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site. This slogan text also links to the Find Your Sauce and Make your sauce pages and is highlighted in green with a slightly larger font to maintain good accessibility.
+![Homepage](assets/screenshots/homepage.png)
+
+Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site. 
+
+This slogan text also links to the Find Your Sauce and Make your sauce pages and is highlighted in green with a slightly larger font to maintain good accessibility.
 
 
 ### Your Spice Level Section
 
-The Your Spice Level section provides a visual representation of what is to come on the page, with a list of common chillies used and their spice level. This will help them when going on to look for sauces in their preferred spice level range. 
+![Your-spice-level](assets/screenshots/your-spice-level.png)
+
+The Your Spice Level section provides a visual representation of what is to come on the site, with a list of common chillies used and their spice level. This will help them when going on to look for sauces in their preferred spice level range.
+
+This aligns with the user story:
+
+- *I want to easily be able to return to and find recipes matching my spice level.*
 
 
 ### Footer Section
+
+![Footer](assets/screenshots/footer.png)
 
 The footer section contains links to the four main social media sites:
 
@@ -105,16 +126,42 @@ The footer section contains links to the four main social media sites:
 * Youtube
   
 In tying in with the colour scheme of the site, they are dimgray with a green hover feature. When clicked they open in a new tab. 
-This feature encourages the user to stay connected through social media.
+This feature encourages the user to stay connected through social media and aligns with the user story:
+
+- *I want to be able build on the relationship [. . .] and connect via social media.*
 
 
 ### Find Your Sauce page
+
 The Find Your Sauce page has a form where users can answer questions to help them find the right sauce to suit their palate, based on the answers they provide. There aren’t too many questions and this is to avoid deterring the user, particularly on first visit, with a time consuming form.
+
+![Find-your-sauce](assets/screenshots/find-your-sauce.png)
 
 The intention is to provide the user with a short selection of sauces on the first use and on future visits, provide updated lists so as to stay up to date and give the user another reason to return.
 
+This aligns with the user stories:
+
+- *I want to find sauce options tailored to my palate.*
+- *I want to be able to receive updated suggestions of sauces to suit my palate.*
+
+On this page the user also has the option of subscribing to receive updates, aligning with the user story:
+
+- *I want to be able build on the relationship by subscribing to a newsletter to receive updates[. . .]*
+
+![Subsribe](assets/screenshots/subscribe.png)
+
+
 ### Make Your Sauce page
-In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes, currently ranging from Mild to Hot. At the moment there is one recipe for each category and this would be expanded in future.  
+
+In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes, currently ranging from Mild to Hot. At the moment there is one recipe for each category and this would be expanded in future.
+
+On this page the user can click on the spice level they prefer and it will take them to the intended recipe.
+
+![Make-your-sauce](assets/screenshots/make-your-sauce.png)
+
+This aligns with the user story:
+
+- *I want to easily be able to return to and find recipes matching my spice level.*
 
 ### Thank You (Form Submit)
 The user is directed to a Thank You page after submitting the form on the Find Your Sauce page which encourages them to connect via social media and redirects them to the Make Your sauce page.
