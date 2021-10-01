@@ -4,7 +4,7 @@
 
 Sauehub is a site with the objective of matching users with the perfect hot sauce to match their palate and their spice level, as well as providing a hub of recipes to make their own.
 
-The site is targeted to those who currently use hot sauce and want to find more choice by providing both homemade and shop bought options catered to their palate. In addition to this, the site also caters to those who may not have much current knowledge but who would like to explore this and find out more about how they can find the right sauce for them.
+The site is targeted to those who currently use hot sauce and want expand their choices by providing both homemade and shop bought options catered to their palate. In addition to this, the site also caters to those who may not have much current knowledge but who would like to explore this and find out more about how they can find the right sauce for them.
 
 [View site by clicking here](https://yasminebb.github.io/saucehub/index.html)
 
@@ -47,7 +47,7 @@ The greys tie in wih the darker tone of the background images used across the si
 
 ### Typography 
 
-I wanted a bolder font for the logo and headings, and a softer font for the majority of the text on the site; therefore decided on the following from Google Fonts:
+I wanted a bolder font for the logo and headings and a softer font for the majority of the text on the site; therefore decided on the following from Google Fonts:
 
 * Bebas Neue
 * Roboto
@@ -80,6 +80,8 @@ The navigation bar contains Font Awesome icons to visually illustrate what the p
 * A Mortar and Pestle icon to represent the recipes on the Make Your Sauce page
 * A Chilli icon to represent the Find Your Sauce page
 
+The chilli icon is also used again on the homepage and recipes page to represent the sites intentions, for example to illustrate the spice level.
+
 The mobile view of the navigation bar is also responsive, ensuring the site is easily to navigate across all devices.
 
   ![Nav-bar-mobile-view](assets/screenshots/nav-bar-mobile-view.png)
@@ -88,8 +90,6 @@ This aligns with the first time user story:
 - *I want to be able to navigate easily throughout the pages.*
   
 
-The chilli icon is also used again on the homepage and recipes page to represent the sites intentions, for example to illustrate the spice level.
-
 The navigation bar has a hover feature which is fixed on the active page and appears when a user hovers over the other pages. 
 
 
@@ -97,9 +97,11 @@ The navigation bar has a hover feature which is fixed on the active page and app
 
 ![Homepage](assets/screenshots/homepage.png)
 
-Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site. 
+Beneath the hero image is some leading text which, alongside the photo, hopes to show the user that this page will provide them with both what they are looking for as well as the incentive to stay and explore the site futher.
 
-This slogan text also links to the Find Your Sauce and Make your sauce pages and is highlighted in green with a slightly larger font to maintain good accessibility.
+![Leading-text](assets/screenshots/leading-text.png)
+
+The text beneath the slogan also links to the Find Your Sauce and Make your sauce pages and is highlighted in green with a slightly larger font size to maintain good accessibility.
 
 
 ### Your Spice Level Section
@@ -110,7 +112,7 @@ The Your Spice Level section provides a visual representation of what is to come
 
 This aligns with the user story:
 
-- *I want to easily be able to return to and find recipes matching my spice level.*
+- *I want to find out about the spice levels of various chillies.*
 
 
 ### Footer Section
@@ -152,7 +154,7 @@ On this page the user also has the option of subscribing to receive updates, ali
 
 ### Make Your Sauce page
 
-In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes, currently ranging from Mild to Hot. At the moment there is one recipe for each category and this would be expanded in future.
+In addition to the Find Your Sauce page, the Make Your Sauce page provides the user with recipes, currently ranging from Mild to Hot. At the moment there is one recipe for each category and this would be expanded in on in the future.
 
 On this page the user can click on the spice level they prefer and it will take them to the intended recipe.
 
@@ -237,7 +239,7 @@ The site is reponsive on screensizes down to 320px, the smallest mobile screensi
 
 Using media queries, I have made the following updates to ensure responsiveness across a range of screen sizes.
 
-* Adjusting the width size for the recipes on the Make Your Sauce page and the form on the Find Your Sauce page.
+* Adjusting the width for the recipes on the Make Your Sauce page and the form on the Find Your Sauce page.
 * Adding a flex-direction property to layer the navigation bar for screen sizes 768px and down.
 * Add a column property to the social media icons for screen sizes 576px and down.
 * Remove the hover selector on the recipes page Mild, Medium, Hot section for screen sizes 768px and down as its not user friendly on mobile view and is better suited to desktop view.
@@ -283,7 +285,7 @@ In order to clone the project, the following steps are to be followed:
 1. Log into GitHub.
 2. Navigate to the repository.
 3. Click on the 'Clone' button.
-4. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, press the clipboard icon in order to copy the URL.
+4. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
 5. Open Terminal.
 6. Change the current working directory to the location that you want the cloned directory.
 7. Type 'git clone' and paste the URL copied in step 3.
