@@ -22,7 +22,7 @@ The site is targeted to those who currently use hot sauce and want to find more 
 * As a first time user:
   
   - I want to find sauce options tailored to my palate.
-  - I want to find out about the spice levels of various chillies
+  - I want to find out about the spice levels of various chillies.
   - I want to be able to navigate easily throughout the pages.
   
   
@@ -81,7 +81,7 @@ The navigation bar contains Font Awesome icons to visually illustrate what the p
 * A Mortar and Pestle icon to represent the recipes on the Make Your Sauce page
 * A Chilli icon to represent the Find Your Sauce page
 
-The chilli icon is also used again on the homepage and recipes page to represent the sites intentions for example to illustrate the spice level which UX DESIGN
+The chilli icon is also used again on the homepage and recipes page to represent the sites intentions for example to illustrate the spice level.
 
 The navigation bar has a hover feature which is fixed on the active page and appears when a user hovers over the other pages. 
 
@@ -137,7 +137,7 @@ The user is directed to a Thank You page after submitting the form on the Find Y
 
 
 * HTML
-  - All HTML was passed through the W3C validator, passing with no errors.
+  - All HTML was passed through the [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyasminebb.github.io%2Fsaucehub%2F), passing with no errors.
   
 * CSS
   - All CSS was passed through the Jigsaw W3C validator, passing with no errors.
@@ -152,9 +152,14 @@ When running Lighthouse testing, I used an incognito window after I was having s
 * [Lighthouse Testing Images](lighthouse.md)
 
 One issue that was flagged when running Lighthouse checks are:
-* The background colour (#D3D3D3) initially used on text-input on the form didn't have a high level of contrast against the form background colour. This colour has been changed to a darker colour (#222224) for better accessibility.
+* The background colour (#D3D3D3) initially used on text-input on the form didn't have a high level of contrast against the form background colour. 
+  
   
 ![Lighthouse testing contrast](assets/screenshots/lighthouse-testing-text-input.png)
+
+This colour has been changed to a darker colour (#222224) for better accessibility resulting in a 100% Lighthouse Accessibility score for this page on both mobile and desktop.
+
+![Updated text input contrast](assets/screenshots/updated-text-input.png)
 
 
 ### Mobile and Desktop Testing
@@ -176,7 +181,7 @@ One issue that was flagged when running Lighthouse checks are:
 ### Responsiveness - Mobile 
 The site is reponsive on screensizes down to 320px, the smallest mobile screensize.
 
-Using media queries, I have made the following uodates to ensure responsiveness across a range of screen sizes.
+Using media queries, I have made the following updates to ensure responsiveness across a range of screen sizes.
 
 * Adjusting the width size for the recipes on the Make Your Sauce page and the form on the Find Your Sauce page.
 * Adding a flex-direction property to layer the navigation bar for screen sizes 768px and down.
@@ -207,6 +212,28 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 5. Under 'Source', select the dropdown which will be titled 'None'.
 6. Select 'Main'.
 7. Click 'Save'.
+
+### Forking
+
+In order to fork the project, the following steps are to be followed:
+
+1. Navigate the the repository.
+2. Find the 'Fork' button to the top right of the page.
+3. Once you click this button the fork will be in your repositories.
+
+### Cloning
+
+In order to clone the project, the following steps are to be followed:
+
+1. Navigate to the repository.
+2. Click on the 'Clone' button.
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, press the clipboard icon in order to copy the URL.
+4. Open Terminal.
+5. Change the directory to the location you want the cloned directory.
+6. Type 'git clone' and paste the URL copied in step 3.
+7. Press 'Enter' and you have your clone.
+
+
 
 
 ## Credits

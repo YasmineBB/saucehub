@@ -23,4 +23,4 @@
   
 ![findyoursauce.html desktop](assets/screenshots/findyoursauce.html-mobile.png)
 
-[Click here to go back to the testing section](https://github.com/YasmineBB/saucehub/blob/main/README.md#chrome-dev-tools-lighthouse)
+[Click here to go back to the Testing section](https://github.com/YasmineBB/saucehub/blob/main/README.md#chrome-dev-tools-lighthouse)
