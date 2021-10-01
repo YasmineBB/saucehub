@@ -140,7 +140,7 @@ The user is directed to a Thank You page after submitting the form on the Find Y
   - All HTML was passed through the [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyasminebb.github.io%2Fsaucehub%2F), passing with no errors.
   
 * CSS
-  - All CSS was passed through the Jigsaw W3C validator, passing with no errors.
+  - All CSS was passed through the [Jigsaw W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyasminebb.github.io%2Fsaucehub%2Fassets%2Fcss%2Fstyle.css), passing with no errors.
 
 The majority of testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. 
 Testing was also done using Safari and Mozilla Firefox on desktop, and again on Google Chrome and Safari using an iPhone 11. 
@@ -205,7 +205,7 @@ After deliberating, I decided not to redesign and compromise on the styling, whi
 ### GitHub Pages
 To view a live preview of the site, the code has been deployed via GitHub pages. The following steps are to be followed in order to deploy via GitHub Pages:
 
-1. Log into GitHub account.
+1. Log into GitHub.
 2. Navigate to the Repository.
 3. Click on the 'Settings' tab.
 4. Navigate to 'GitHub Pages' on the lefthand sidebar.
@@ -217,21 +217,23 @@ To view a live preview of the site, the code has been deployed via GitHub pages.
 
 In order to fork the project, the following steps are to be followed:
 
-1. Navigate the the repository.
-2. Find the 'Fork' button to the top right of the page.
-3. Once you click this button the fork will be in your repositories.
+1. Log in to GitHub.
+2. Navigate to the repository.
+3. Find the 'Fork' button to the top right of the page.
+4. Once you click this button the fork will be in your repositories.
 
 ### Cloning
 
 In order to clone the project, the following steps are to be followed:
 
-1. Navigate to the repository.
-2. Click on the 'Clone' button.
-3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, press the clipboard icon in order to copy the URL.
-4. Open Terminal.
-5. Change the directory to the location you want the cloned directory.
-6. Type 'git clone' and paste the URL copied in step 3.
-7. Press 'Enter' and you have your clone.
+1. Log into GitHub.
+2. Navigate to the repository.
+3. Click on the 'Clone' button.
+4. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, press the clipboard icon in order to copy the URL.
+5. Open Terminal.
+6. Change the current working directory to the location that you want the cloned directory.
+7. Type 'git clone' and paste the URL copied in step 3.
+8. Press 'Enter' and you have your clone.
 
 
 
@@ -257,7 +259,7 @@ In order to clone the project, the following steps are to be followed:
 
 ### Content
 
-* All other content is the developers own.
+* All other content is my own.
 
 ### Media
 
